@@ -1,0 +1,76 @@
+[
+  {
+    "webUserId": "1",
+    "userEmail": "sallyk",
+    "userPassword": "p",
+    "image": "https://cis-linux2.temple.edu/~sallyk/_pics/sk_07_17.png",
+    "birthday": "",
+    "membershipFee": "$123.45",
+    "userRoleId": "2",
+    "userRoleType": "Edit",
+    "errorMsg": ""
+  },
+  {
+    "webUserId": "2",
+    "userEmail": "benAffleck@rehab.com",
+    "userPassword": "beer",
+    "image": "https://hairstyles.thehairstyler.com/hairstyle_views/front_view_images/6986/original/Ben-Affleck.jpg",
+    "birthday": "",
+    "membershipFee": "",
+    "userRoleId": "3",
+    "userRoleType": "View",
+    "errorMsg": ""
+  },
+  {
+    "webUserId": "5",
+    "userEmail": "jenGarner@hollywood.com",
+    "userPassword": "hero",
+    "image": "https://i.pinimg.com/originals/55/08/a0/5508a0d858023e758892f09f35b53c93.jpg",
+    "birthday": "04/05/1990",
+    "membershipFee": "$50.99",
+    "userRoleId": "1",
+    "userRoleType": "Admin",
+    "errorMsg": ""
+  },
+  {
+    "webUserId": "6",
+    "userEmail": "oprah@talk.com",
+    "userPassword": "talk",
+    "image": "https://www.iceposter.com/thumbs/G339317_b.jpg",
+    "birthday": "06/07/1980",
+    "membershipFee": "",
+    "userRoleId": "3",
+    "userRoleType": "View",
+    "errorMsg": ""
+  },
+  {
+    "webUserId": "11",
+    "userEmail": "abha@temple.edu",
+    "image": "https://cis-linux2.temple.edu/~sallyk/pics_users/abha.jpg",
+    "birthday": "11/22/2001",
+    "membershipFee": "",
+    "userRoleId": "3",
+    "userRoleType": "Member",
+    "errorMsg": ""
+  },
+  {
+    "webUserId": "12",
+    "userEmail": "dominic@temple.edu",
+    "image": "https://cis-linux2.temple.edu/~sallyk/pics_users/dominic.jpg",
+    "birthday": "",
+    "membershipFee": "$1,000.99",
+    "userRoleId": "3",
+    "userRoleType": "Member",
+    "errorMsg": ""
+  },
+  {
+    "webUserId": "346",
+    "userEmail": "jamie@gmail.com",
+    "image": "https://cis-linux2.temple.edu/~sallyk/pics_users/jamie.jpg",
+    "birthday": "02/02/1997",
+    "membershipFee": "$9.99",
+    "userRoleId": "1",
+    "userRoleType": "Admin",
+    "errorMsg": ""
+  }
+]

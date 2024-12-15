@@ -1,0 +1,35 @@
+/* Main content area styling */
+
+#content {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 6rem 1rem 2rem; /* Adds padding to content */
+    padding-top: 2rem; /* Adds extra padding at the top to prevent overlap with fixed header */
+    width: 100%; /* Full width */
+    height: auto; /* Allow the content to expand naturally */
+    padding-bottom: 5rem; /* Ensure space between content and footer */
+}
+
+/* Text section inside content */
+#content .text-section {
+    flex: 1; /* Allows flexible sizing */
+    min-width: 200px; /* Minimum width to avoid text getting too small */
+}
+
+/* Image section styling */
+#content .img-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%; /* Ensures the image doesn't exceed the container's width */
+}
+
+/* Image styling */
+#content img {
+    max-width: 800px; /* Set a maximum size for larger screens */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0.5rem; /* Rounded corners */
+}

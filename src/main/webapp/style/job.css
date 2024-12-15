@@ -1,0 +1,81 @@
+/* job.css */
+
+/* Container for the list of jobs created by MakeJob_CGF */
+.job-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between each job component */
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for each individual job component */
+.job-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.job-container img.job-image {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Text and label styling for each job component */
+.job-container p {
+    margin: 8px 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Dropdown (select) styling for image selection */
+.job-container select.selectImages {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+/* Input field styling */
+.job-container input[type="text"],
+.job-container input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+
+/* Button styling */
+.job-container button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+/* Button hover effect */
+.job-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Hover effect for job container */
+.job-container:hover {
+    background-color: #e8f4f8;
+}

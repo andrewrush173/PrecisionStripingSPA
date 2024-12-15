@@ -1,0 +1,11 @@
+#blog-content {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 6rem 1rem 2rem; /* Adds padding to content */
+    padding-top: 1rem; /* Adds extra padding at the top to prevent overlap with fixed header */
+    width: 100%; /* Full width */
+    height: auto; /* Allow the content to expand naturally */
+    padding-bottom: 5rem; /* Ensure space between content and footer */
+}
